@@ -1,3 +1,5 @@
+'use strict';
+
 const DEFAULTS_OPTIONS = {
     cyclic: true,
     index: -1,
