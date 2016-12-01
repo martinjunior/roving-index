@@ -1,0 +1,37 @@
+{
+  "name": "roving-index",
+  "version": "1.0.0",
+  "description": "A module for managing roving index (like roving tabindex)",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -s RovingIndex -o index.js -t [ babelify --presets [ es2015 ] ]",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinjunior/roving-index.git"
+  },
+  "keywords": [
+    "accessibility",
+    "roving index"
+  ],
+  "author": "Martin Duran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinjunior/roving-index/issues"
+  },
+  "homepage": "https://github.com/martinjunior/roving-index#readme",
+  "devDependencies": {
+    "babel-jest": "^17.0.2",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "jest": "^17.0.3",
+    "sinon": "^1.17.6"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "<rootDir>/test-coverage",
+    "verbose": true
+  }
+}
