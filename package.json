@@ -1,6 +1,6 @@
 {
   "name": "roving-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module for managing roving index (like roving tabindex)",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "roving index"
   ],
   "author": "Martin Duran",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/martinjunior/roving-index/issues"
   },
