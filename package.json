@@ -1,6 +1,6 @@
 {
   "name": "roving-index",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A module for managing roving index (like roving tabindex)",
   "main": "index.js",
   "typings": "types/index.d.ts",
