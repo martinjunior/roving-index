@@ -1,8 +1,9 @@
 {
   "name": "roving-index",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module for managing roving index (like roving tabindex)",
   "main": "index.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "build": "browserify src/index.js -s RovingIndex -o index.js -t [ babelify --presets [ es2015 ] ]",
     "test": "jest"
