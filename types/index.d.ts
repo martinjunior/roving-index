@@ -12,7 +12,7 @@ interface IRovingIndexCallback {
 export default class RovingIndex {
     constructor(config: IRovingIndexOptions);
     resetIndex(): void;
-    getIndex(): void;
+    getIndex(): number;
     getTotal(): number;
     prev(callback: IRovingIndexCallback): void;
     next(callback: IRovingIndexCallback): void;
